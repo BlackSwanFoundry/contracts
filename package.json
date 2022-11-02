@@ -1,0 +1,29 @@
+{
+  "name": "@bsfoundry/contracts",
+  "version": "0.0.1",
+  "description": "A solidity smart-contract toolkit.",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "bash ../scripts/prepare-contracts-package.sh",
+    "prepare-docs": "cd ..; npm run prepare-docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlackSwanFoundry/contracts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BlackSwanFoundry/contracts/issues"
+  },
+  "homepage": "https://github.com/BlackSwanFoundry/contracts#readme",
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "smart",
+    "contracts",
+    "security",
+    "bsfoundry",
+    "kit"
+  ]
+}
