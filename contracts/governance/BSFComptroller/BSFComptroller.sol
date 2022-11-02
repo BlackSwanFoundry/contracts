@@ -5,7 +5,7 @@ import "../../../node_modules/openzeppelin-solidity/contracts/math/SafeMath.sol"
 
 import "../BSFContractSolo.sol";
 
-contract BSFComptroller is BSFContractSolo {
+abstract contract BSFComptroller is BSFContractSolo {
 
     string private _key = "bsf.comptroller";
 

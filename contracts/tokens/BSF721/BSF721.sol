@@ -8,7 +8,8 @@ import "../../../node_modules/openzeppelin-solidity/contracts/AutoIncrementing.s
 import "../BSFComptroller/BSFComptroller.sol";
 import "../BSFContract.sol";
 
-contract BSF721 is ERC721Token,BSFContract {
+abstract contract BSF721 is ERC721Token,
+                            BSFContract {
     using SafeMath for uint256;
     using AutoIncrementing for AutoIncrementing.Counter;
 

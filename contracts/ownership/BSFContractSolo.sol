@@ -6,7 +6,7 @@ import "../../node_modules/openzeppelin-solidity/contracts/math/SafeMath.sol";
 
 import "./BSF20/IBSF20.sol";
 
-contract BSFContractSolo is Ownable {
+abstract contract BSFContractSolo is Ownable {
     string internal _key;
     /**
     * @dev Operational status of the contract.

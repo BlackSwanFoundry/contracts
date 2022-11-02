@@ -7,7 +7,7 @@ import "../../node_modules/openzeppelin-solidity/contracts/math/SafeMath.sol";
 import "./BSFComptroller/IBSFComptroller.sol";
 import "./BSF20/IBSF20.sol";
 
-contract BSFContract is Ownable {
+abstract contract BSFContract is Ownable {
 
     string internal _key;
     string internal _bsf_comptroller = "bsf.comptroller";

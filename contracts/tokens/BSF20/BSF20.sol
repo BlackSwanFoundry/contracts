@@ -5,7 +5,7 @@ import "../../../node_modules/openzeppelin-solidity/contracts/token/ERC20/Detail
 import "../../../node_modules/openzeppelin-solidity/contracts/token/ERC20/MintableToken.sol";
 import "../../../node_modules/openzeppelin-solidity/contracts/token/ERC20/BurnableToken.sol";
 
-import "../BSFContract.sol";
+import "../../BSFContract.sol";
 
 abstract contract BSF20 is IBSF20, 
                   BSFContract,
