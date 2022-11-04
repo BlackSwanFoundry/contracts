@@ -4,7 +4,7 @@
   "description": "A solidity smart-contract toolkit.",
   "main": "index.js",
   "scripts": {
-    "prepare": "bash ../scripts/prepare-contracts-package.sh",
+    "prepare": "cd ..; bash scripts/prepare-contracts-package.sh",
     "prepare-docs": "cd ..; npm run prepare-docs"
   },
   "repository": {
