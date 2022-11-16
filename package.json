@@ -4,9 +4,6 @@
   "description": "A solidity smart-contract toolkit.",
   "main": "index.js",
   "scripts": {
-    "clean": "",
-    "prepack": "",
-    "prepare": "bash scripts/prepare-contracts-package.sh"
   },
   "repository": {
     "type": "git",
