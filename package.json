@@ -6,6 +6,11 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
+  "files":[
+    "/contracts/governance",
+    "/contracts/ownership",
+    "/contracts/tokens"
+  ],
   "main": "index.js",
   "scripts": {
   },
